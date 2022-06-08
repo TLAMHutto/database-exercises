@@ -1,10 +1,10 @@
 use codeup_test_db;
 create table albums (
   id int primary key not null auto_increment,
-  artist varchar(50) not null,
-  name varchar(50),
-  release_date date,
+  artist varchar(200) not null,
+  name varchar(200),
+  release_date int,
   sales float,
-  genre varchar(50)
+  genre varchar(200)
 );
 desc albums;
